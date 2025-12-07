@@ -16,7 +16,7 @@ const Hero = () => {
             All of your commitments, now in one place. Meet the beautifully
             designed, fully integrated calendar for your work and life.
         </p>
-            <Link href="#" className=" bg-black rounded-lg flex flex-col text-[18px] sm:flex-row text-white py-[5px] px-[17px]  focus:bg-gray-700 transition font-medium">
+            <Link href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz" className=" bg-black rounded-lg flex flex-col text-[18px] sm:flex-row text-white py-[5px] px-[17px]  focus:bg-gray-700 transition font-medium">
                 Get Notion calendar free
             </Link>
         </div>
