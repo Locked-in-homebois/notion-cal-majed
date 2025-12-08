@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 const Quatro = () => {
     return (
         <div className="pb-[170px]">

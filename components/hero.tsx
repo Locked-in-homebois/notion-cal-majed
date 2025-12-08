@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+// import React from "react";
 const Hero = () => {
     return (
         <main className="flex w-full flex-col items-center pt-33 pb-12 bg-white">
