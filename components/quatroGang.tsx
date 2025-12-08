@@ -3,42 +3,90 @@ const Quatro = () => {
     return (
         <div className="pb-[170px]">
             <div className=" flex ">
-                <div className=" bg-stone-100 rounded-xl w-[500] h-[535px] mb-6 mx-3 py-7 text-black text-xl ">
+                <div className=" bg-stone-100 rounded-xl w-[500] h-[535px] mb-6 mx-3 py-6 text-black text-xl ">
+                    <Image
+                        src="/notion-icon.svg"
+                        alt="notion logo"
+                        width={22}
+                        height={24}
+                        className="pb-4 ml-9 mt-0.5"
+                    />
+                    <h1 className="pb-1 ml-8 font-black">Built-in scheduling</h1>
+                    <p className=" ml-8 text-[17px] font-extralight max-w-[450px]">
+                        Send your availability and scheduling link to let others
+                        book time with you. No separate app.
+                    </p>
                     <Image
                         src="/Q1.png"
                         width={430}
                         height={430}
                         alt="first quarter"
-                        className="mx-[35px] mt-[183px] shadow-xs"
+                        className="mx-[35px] mt-[66px] shadow-xs"
                     />
                 </div>
-                <div className=" bg-stone-100 rounded-xl w-[500] h-[535px] mb-6 mx-3 py-7 text-black text-xl ">
+                <div className=" bg-stone-100 rounded-xl w-[500] h-[535px] mb-6 mx-3 py-6 text-black text-xl ">
+                    <Image
+                        src="/notion-icon.svg"
+                        alt="notion logo"
+                        width={22}
+                        height={24}
+                        className="pb-4 ml-9 mt-0.5"
+                    />
+                    <h1 className="pb-1 ml-8 font-black">Work across time zones</h1>
+                    <p className=" ml-8 text-[17px] font-extralight max-w-[450px]">
+                        Thoughtfully collaborate with global teams as you
+                        visualize your day across time zones.
+                    </p>
                     <Image
                         src="/Q2.png"
                         width={500}
                         height={500}
                         alt="second quarter"
-                        className="mt-[170px]"
+                        className="mt-[53px]"
                     />
                 </div>
             </div>
             <div className=" flex ">
-                <div className=" bg-stone-100 rounded-xl w-[500] h-[535px] mb-1 mx-3 py-7 text-black text-xl">
+                <div className=" bg-stone-100 rounded-xl w-[500] h-[535px] mb-1 mx-3 py-6 text-black text-xl">
+                    <Image
+                        src="/notion-icon.svg"
+                        alt="notion logo"
+                        width={22}
+                        height={24}
+                        className="pb-4 ml-9 mt-0.5"
+                    />
+                    <h1 className="pb-1 ml-8 font-black">Modern design</h1>
+                    <p className=" ml-8 text-[17px] font-extralight max-w-[450px]">
+                        Use command menu and shortcuts for efficient workflows.
+                    </p>
                     <Image
                         src="/Q3.png"
                         width={500}
                         height={500}
                         alt="third quarter"
-                        className="mt-[170px]"
+                        className="mt-[95px]"
                     />
                 </div>
-                <div className=" bg-stone-100 rounded-xl w-[500] h-[535px] mb-1 mx-3 py-7 text-black text-xl">
+                <div className=" bg-stone-100 rounded-xl w-[500] h-[535px] mb-1 mx-3 py-6 text-black text-xl">
+                    <Image
+                        src="/notion-icon.svg"
+                        alt="notion logo"
+                        width={22}
+                        height={24}
+                        className="pb-4 ml-9 mt-0.5"
+                    />
+                    <h1 className="pb-1 ml-8 font-black">Available in 12 languages</h1>
+                    <p className=" ml-8 text-[17px] font-extralight max-w-[450px]">
+                        Supports English, Japanese, Korean, French, German,
+                        Spanish, Portuguese, Danish, Dutch, Finnish, Norwegian,
+                        and Swedish… with more on the way!
+                    </p>
                     <Image
                         src="/Q4.png"
                         width={500}
                         height={480}
                         alt="fourth quarter"
-                        className="mt-[140px]"
+                        className="mt-[16px]"
                     />
                 </div>
             </div>

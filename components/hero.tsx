@@ -14,7 +14,7 @@ const Hero = () => {
                 <h4>Notion calendar</h4>
             </div>
             <div className="flex flex-col items-center gap-4 text-center py-2">
-                <h1 className="max-w-xs text-7xl text-center font-bold tracking-tight text-black">
+                <h1 className="max-w-xs text-7xl text-center font-bold tracking-tighter text-black">
                     It's time.
                 </h1>
                 <p className="max-w-md text-[20px] text-center text-black font-[550]">
