@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Hero from "@/components/hero";
 import Video from "@/components/video";
 import PhotoDes from "@/components/photoWithDesc";
@@ -12,18 +12,9 @@ export default function Home() {
             <Navbar />
             <Hero />
             <Video />
-            <div className="text-center font-[1000] text-black text-[41px] pb-14">
-                Time management, simplified.
-            </div>
             <PhotoDes />
             <Quatro />
-            <div className="text-center font-[1000] text-black text-[41px] pb-14 max-w-[470px]">
-                Fully integrated with your Notion workspace.
-            </div>
             <Trio />
-            <div className="text-center font-[1000] text-black text-[39px] pb-14 max-w-xl">
-                Work and life, playing nice.
-            </div>
             <Bigandtrio />
         </main>
     );
