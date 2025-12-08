@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 const Hero = () => {
     return (
-    <main className="flex w-full flex-col items-center pt-24 pb-12 bg-white">
+    <main className="flex w-full flex-col items-center pt-33 pb-12 bg-white">
         <Image src="/cal.svg" alt="notion cal logo" width={100} height={100} />
         <div className="text-black font-bold pt-2">
         <h4>Notion calendar</h4>
