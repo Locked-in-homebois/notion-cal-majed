@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Navbar = () => {
     return (
-        <nav className="fixed top-0 flex w-full pb-12 max-h-[66px] bg-white shadow-sm text-center">
+        <nav className="fixed top-0 flex w-full pb-12 max-h-[66px] bg-white text-center">
             <div className="mx-[25px] my-[18px] pr-24">
                 <Link
                     href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
@@ -16,7 +16,7 @@ const Navbar = () => {
                     />
                 </Link>
             </div>
-            <div className="flex-row w-full h-full max-h-[66px] text-black font-[505] text-center items-center text-sm py-6 pl-40">
+            <div className="flex-row w-full h-full max-h-[66px] text-black font-[505] text-center items-center text-sm py-6 pl-40 hidden sm:block">
                 <Link
                     href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
                     className="mr-3"
@@ -69,7 +69,7 @@ const Navbar = () => {
             <div className="flex mt-3.5 items-end w-[450px] h-full pl-6">
                 <Link
                     href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
-                    className=" text-[15px] text-black h-max-[66px] max-w-2xl mr-5 mb-2"
+                    className=" text-[15px] text-black md:h-max-[66px] max-w-2xl md:mb-2 hidden sm:block "
                 >
                     Log in
                 </Link>
