@@ -2,8 +2,8 @@ import Image from "next/image";
 const Quatro = () => {
     return (
         <div className="pb-[170px]">
-            <div className=" flex ">
-                <div className=" bg-stone-100 rounded-xl w-[500] h-[535px] mb-6 mx-3 py-6 text-black text-xl ">
+            <div className=" md:flex items-center">
+                <div className=" bg-stone-100 ml-[20px] md:ml-0 rounded-xl md:w-[500] w-[310px] h-[434px] mb-6 mx-3 py-6 text-black text-xl items-center">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
@@ -21,10 +21,10 @@ const Quatro = () => {
                         width={430}
                         height={430}
                         alt="first quarter"
-                        className="mx-[35px] mt-[66px] shadow-xs"
+                        className="mx-[35px] mt-[66px] shadow-xs w-[265px] md:w-[430px] md:h-[430px]"
                     />
                 </div>
-                <div className=" bg-stone-100 rounded-xl w-[500] h-[535px] mb-6 mx-3 py-6 text-black text-xl ">
+                <div className=" bg-stone-100 ml-[20px] md:ml-0 rounded-xl md:w-[500] w-[310px] h-[434px] mb-6 mx-3 py-6 text-black text-xl items-center">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
@@ -46,8 +46,8 @@ const Quatro = () => {
                     />
                 </div>
             </div>
-            <div className=" flex ">
-                <div className=" bg-stone-100 rounded-xl w-[500] h-[535px] mb-1 mx-3 py-6 text-black text-xl">
+            <div className=" md:flex ">
+                <div className=" bg-stone-100 ml-[20px] md:ml-0 rounded-xl md:w-[500] w-[310px] h-[434px] mb-6 mx-3 py-6 text-black text-xl items-center">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
@@ -67,7 +67,7 @@ const Quatro = () => {
                         className="mt-[95px]"
                     />
                 </div>
-                <div className=" bg-stone-100 rounded-xl w-[500] h-[535px] mb-1 mx-3 py-6 text-black text-xl">
+                <div className=" bg-stone-100 ml-[20px] md:ml-0 rounded-xl md:w-[500] w-[310px] h-[434px] mb-6 mx-3 py-6 text-black text-xl items-center">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
@@ -86,7 +86,7 @@ const Quatro = () => {
                         width={500}
                         height={480}
                         alt="fourth quarter"
-                        className="mt-[16px]"
+                        className="mt-4"
                     />
                 </div>
             </div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 const Navbar = () => {
     return (
         <nav className="fixed top-0 flex w-full pb-12 max-h-[66px] bg-white text-center">
-            <div className="mx-[25px] my-[18px] pr-24">
+            <div className="md:mx-[25px] md:my-[18px] md:pr-24">
                 <Link
                     href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
                     className=" "
@@ -16,7 +16,7 @@ const Navbar = () => {
                     />
                 </Link>
             </div>
-            <div className="flex-row w-full h-full max-h-[66px] text-black font-[505] text-center items-center text-sm py-6 pl-40 hidden sm:block">
+            <div className="flex-row w-full h-full max-h-[66px] text-black font-[505] text-center items-center text-sm py-6 pl-40 hidden md:block">
                 <Link
                     href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
                     className="mr-3"
@@ -66,16 +66,16 @@ const Navbar = () => {
                     Request a demo
                 </Link>
             </div>
-            <div className="flex mt-3.5 items-end w-[450px] h-full pl-6">
+            <div className="flex mt-3.5 items-end w-[450px] h-full md:pl-6 justify-end">
                 <Link
                     href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
-                    className=" text-[15px] text-black md:h-max-[66px] max-w-2xl md:mb-2 hidden sm:block "
+                    className=" text-[15px] text-black md:h-max-[66px] max-w-2xl md:mb-2 hidden md:block "
                 >
                     Log in
                 </Link>
                 <Link
                     href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
-                    className=" bg-black rounded-lg flex flex-col text-[16px] sm:flex-row text-white py-2 px-[17px]  focus:bg-gray-700 transition font-medium"
+                    className=" bg-black rounded-lg flex flex-col text-[16px]  text-white py-2 px-[17px]  focus:bg-gray-700 transition font-medium"
                 >
                     Get Notion calendar free
                 </Link>

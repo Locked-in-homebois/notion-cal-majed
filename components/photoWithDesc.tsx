@@ -2,10 +2,10 @@ import Image from "next/image";
 const PhotoDes = () => {
     return (
         <>
-            <div className="text-center font-[1000] text-black text-[41px] pb-14">
+            <div className="text-center font-[1000] text-black md:text-[41px] text-[30px] pb-14">
                 Time management, simplified.
             </div>
-            <div className=" bg-stone-100 rounded-xl w-5xl h-[682px] mb-5  py-7 text-black text-xl">
+            <div className=" bg-stone-100 rounded-xl w-[300px] h-[420px] md:w-5xl md:h-[682px] mb-5  py-7 text-black text-xl">
                 <div className="px-[34px]">
                     <Image
                         src="/thunder.png"
