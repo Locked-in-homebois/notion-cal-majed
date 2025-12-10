@@ -21,7 +21,7 @@ const Quatro = () => {
                         width={430}
                         height={430}
                         alt="first quarter"
-                        className="mx-[35px] mt-[66px] shadow-xs w-[265px] md:w-[430px] md:h-[430px]"
+                        className="mx-[35px] mt-[66px] shadow-xs w-[265px] md:w-[390] md:h-[223]"
                     />
                 </div>
                 <div className=" bg-stone-100 ml-[20px] md:ml-0 rounded-xl md:w-[500] w-[310px] h-[434px] mb-6 mx-3 py-6 text-black text-xl items-center">
@@ -42,7 +42,7 @@ const Quatro = () => {
                         width={500}
                         height={500}
                         alt="second quarter"
-                        className="mt-[53px]"
+                        className="mt-[53px] md:w-[390] md:h-[323]"
                     />
                 </div>
             </div>

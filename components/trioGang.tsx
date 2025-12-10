@@ -50,7 +50,7 @@ const Trio = () => {
                             width={260}
                             height={400}
                             alt="second quarter"
-                            className="md:mt-[46px] mt-[75px] ml-[51px] md:w-[450px] md:h-[480px]"
+                            className="md:mt-[46px] mt-[75px] ml-[51px] md:w-[450px] md:h-[252px]"
                         />
                     </div>
                     <div className=" bg-stone-100 rounded-xl w-[310px] md:w-[500] md:ml-0 ml-5 h-[372px] md:h-[445px] mb-1 mx-3 py-7 text-black text-xl">
@@ -73,7 +73,7 @@ const Trio = () => {
                             width={520}
                             height={480}
                             alt="third quarter"
-                            className="mt-[41px] md:w-[520px] md:h-[480px]"
+                            className="mt-[41px] md:w-[500px] md:h-[258px]"
                         />
                     </div>
                 </div>
