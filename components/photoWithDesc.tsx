@@ -5,7 +5,7 @@ const PhotoDes = () => {
             <div className="text-center font-[1000] text-black md:text-[41px] text-[32px] pb-14">
                 Time management, simplified.
             </div>
-            <div className=" bg-stone-100 rounded-xl w-[340px] h-[374px] md:w-5xl md:h-[682px] mb-5  md:pt-0 pt-7 md:py-7 text-black text-xl">
+            <div className=" bg-stone-100 rounded-xl w-[340px] h-[374px] md:w-5xl md:h-[682px] mb-5   pt-7 md:py-7 text-black text-xl">
                 <div className="md:px-[34px] px-5">
                     <Image
                         src="/thunder.png"
@@ -23,10 +23,10 @@ const PhotoDes = () => {
                 </div>
                 <Image
                     src="/photowithdes.png"
-                    width={310}
+                    width={610}
                     height={140}
                     alt="video ake image"
-                    className="md:w-[975px] md:h-[650px]"
+                    className="md:w-[975px] md:h-[486px]"
                 />
             </div>
         </>

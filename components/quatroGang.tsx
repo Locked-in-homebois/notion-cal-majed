@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Quatro = () => {
     return (
-        <div className="md:pb-[170px] pb-[100px]">
+        <div className="pb-[170px]">
             <div className=" md:flex items-center">
                 <div className=" bg-stone-100  md:ml-0 rounded-xl md:w-[500] w-[340px] h-[434px] mb-6 md:mx-3 py-6 text-black text-xl items-center">
                     <Image
@@ -9,7 +9,7 @@ const Quatro = () => {
                         alt="notion logo"
                         width={22}
                         height={24}
-                        className="pb-4 ml-6 md:ml-9 mt-0.5"
+                        className="pb-4 ml- md:ml-9 mt-0.5"
                     />
                     <h1 className="pb-1 md:ml-8 px-[25px] font-black">Built-in scheduling</h1>
                     <p className=" md:ml-8 text-[17px] px-[25px] font-extralight max-w-[450px]">
@@ -18,10 +18,10 @@ const Quatro = () => {
                     </p>
                     <Image
                         src="/Q1.png"
-                        width={430}
-                        height={430}
+                        width={630}
+                        height={630}
                         alt="first quarter"
-                        className="md:mx-[35px] mx-[15px] md:mt-[66px] mt-[33px] shadow-xs w-[311px] md:w-[390] md:h-[223]"
+                        className="md:mx-[55px] mx-[15px] md:mt-[26px] mt-[33px] shadow-xs w-[311px] md:w-[400] md:h-[263]"
                     />
                 </div>
                 <div className=" bg-stone-100  md:ml-0 rounded-xl md:w-[500] w-[340px] h-[434px] mb-6 md:mx-3 py-6 text-black text-xl items-center">
@@ -39,10 +39,10 @@ const Quatro = () => {
                     </p>
                     <Image
                         src="/Q2.png"
-                        width={500}
-                        height={500}
+                        width={800}
+                        height={800}
                         alt="second quarter"
-                        className="mt-[53px] md:pl-[100px] md:w-[390] md:h-[233]"
+                        className="mt-[53px] md:pl-[100px] md:w-[390] md:h-[233] w-[380] h-[213]"
                     />
                 </div>
             </div>
@@ -64,7 +64,7 @@ const Quatro = () => {
                         width={500}
                         height={500}
                         alt="third quarter"
-                        className="md:mt-[95px] md:w-[500px] w-[500px] h-[250px] md:h-[500px] mt-10"
+                        className="md:mt-[95px] md:w-[500px] w-[500px] h-[250px] md:h-[345px] mt-10"
                     />
                 </div>
                 <div className=" bg-stone-100  md:ml-0 rounded-xl md:w-[500] w-[340px] h-[434px] mb-6 md:mx-3 py-6 text-black text-xl items-center">
