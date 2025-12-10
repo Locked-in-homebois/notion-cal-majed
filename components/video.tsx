@@ -7,7 +7,7 @@ const Video = () => {
                 width={600}
                 height={400}
                 alt="video ake image"
-                className="md:w-[840px] md:h-[540px]"
+                className="md:w-[820px] md:h-[535px]"
             />
         </div>
     );

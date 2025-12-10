@@ -2,9 +2,9 @@ import Image from "next/image";
 const Trio = () => {
     return (
         <>
-            <div className="text-center font-[1000] text-black md:text-[41px] text-[30px] pb-14 md-max-w-[470px] max-w-[200px]">
+            <div className="text-center font-[1000] text-black md:text-[41px] text-[30px] pb-14 md:max-w-[470px] max-w-[200px]">
                 Fully integrated with your Notion workspace.
-            </div>
+            </div> 
             <div className="pb-[170px] items-center">
                 <div className=" bg-stone-100 rounded-xl md:ml-0 ml-5 md:w-[1024] w-[310px] md:h-[680] mb-6 md:mx-3 py-7 text-black md:text-xl text-lg ">
                     <Image
