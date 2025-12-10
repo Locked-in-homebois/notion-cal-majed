@@ -2,7 +2,7 @@ import Image from "next/image";
 const Quatro = () => {
     return (
         <div className="pb-[170px]">
-            <div className=" md:flex items-center">
+            <div className=" md:flex items-center md:mb-4 gap-6">
                 <div className=" bg-stone-100  md:ml-0 rounded-xl md:w-[500] w-[340px] h-[434px] mb-6 md:mx-3 py-6 text-black text-xl items-center">
                     <Image
                         src="/notion-icon.svg"
@@ -46,7 +46,7 @@ const Quatro = () => {
                     />
                 </div>
             </div>
-            <div className=" md:flex ">
+            <div className=" md:flex gap-6">
                 <div className=" bg-stone-100  md:ml-0 rounded-xl md:w-[500] w-[340px] h-[434px] mb-6 md:mx-3 py-6 text-black text-xl items-center">
                     <Image
                         src="/notion-icon.svg"

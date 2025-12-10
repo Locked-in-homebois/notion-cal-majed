@@ -17,16 +17,16 @@ const PhotoDes = () => {
                 <div className="text-black text-lg font-[1000] pt-2 px-[25px] md:px-[34px]">
                     See your schedule at a glance
                 </div>
-                <div className="max-w-xl text-[17px] font-extralight pt-1 px-[25px] md:px-[34px] pb-[50px]">
+                <div className="max-w-xl text-[17px] font-extralight pt-1 px-[25px] md:px-[34px] md:pb-[50px] pb-[29px]">
                     Join meetings directly from the menu bar so you can stay
                     focused on the work that matters.
                 </div>
                 <Image
                     src="/photowithdes.png"
-                    width={610}
-                    height={140}
+                    width={810}
+                    height={640}
                     alt="video ake image"
-                    className="md:w-[975px] md:h-[486px]"
+                    className="md:w-[975px] w-[320px] h-[174px] md:h-[486px]"
                 />
             </div>
         </>

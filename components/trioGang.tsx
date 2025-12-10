@@ -29,7 +29,7 @@ const Trio = () => {
                         className="md:mt-[65px] mt-[30px] md:w-[980px] md:h-[465px] w-[340] h-[200] md:[800px] md:ml-[46px] shadow-xs"
                     />
                 </div>
-                <div className=" md:flex ">
+                <div className=" md:flex md:gap-4">
                     <div className=" bg-stone-100 rounded-xl  w-[340px] md:w-[500] md:ml-0 ml-5 h-[420px] md:h-[445px] mb-3 mx-3 py-7 text-black text-xl">
                         <Image
                             src="/notion-icon.svg"

@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 const Navbar = () => {
     return (
-        <nav className="sticky top-0 flex w-full pb-12 max-h-[66px] bg-white text-center shadow-xs">
-            <div className="md:mx-[25px] mx-[16px] my-[18px] md:pr-24">
+        <nav className="sticky top-0 flex w-full pb-12 max-h-[66px] bg-white text-center shadow-xs ">
+            <div className="md:mx-[25px] mx-4 my-[18px] md:pr-24">
                 <Link
                     href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
                     className=" "
@@ -17,7 +17,7 @@ const Navbar = () => {
                     />
                 </Link>
             </div>
-            <div className="flex-row md:flex w-full h-full max-h-[66px] md:gap-5 justify-center text-black font-[505] text-center items-center text-sm py-6 pl-40 hidden md:block">
+            <div className="flex-row md:flex w-full h-full max-h-[66px] md:gap-10 justify-center text-black font-[505] text-center items-center text-sm py-6 pl-40 hidden  ">
                 <Link
                     href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
                 >
