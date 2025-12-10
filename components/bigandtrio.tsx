@@ -6,7 +6,7 @@ const Bigandtrio = () => {
                 Work and life, playing nice.
             </div>
             <div className="pb-[170px] ml-[11px] items-center">
-                <div className=" bg-stone-100 rounded-2xl md:w-[1024] md:h-[712] mb-6 py-9 text-black text-xl ">
+                <div className=" bg-stone-100 rounded-2xl md:w-[1024] w-[310px] md:h-[712] mb-6 py-9 text-black text-xl ">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
@@ -29,7 +29,7 @@ const Bigandtrio = () => {
                         className="mt-7 md:w-[960px] md:h-[553px] ml-2.5 md:ml-[33px] shadow-xs "
                     />
                 </div>
-                <div className=" flex ">
+                <div className=" md:flex ">
                     <div className=" bg-stone-100 rounded-2xl w-[328] h-[205px] mb-1  py-7 text-black text-xl">
                         <Image
                             src="/notion-icon.svg"

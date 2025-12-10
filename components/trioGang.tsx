@@ -2,11 +2,11 @@ import Image from "next/image";
 const Trio = () => {
     return (
         <>
-            <div className="text-center font-[1000] text-black md:text-[41px] text-[30px] pb-14 md:max-w-[470px] max-w-[200px]">
+            <div className="text-center font-[1000] text-black md:text-[41px] text-[33px] pb-14 md:max-w-[470px] tracking-tight max-w-[248px]">
                 Fully integrated with your Notion workspace.
             </div> 
             <div className="pb-[170px] items-center">
-                <div className=" bg-stone-100 rounded-xl md:ml-0 ml-5 md:w-[1024] w-[310px] md:h-[680] mb-6 md:mx-3 py-7 text-black md:text-xl text-lg ">
+                <div className=" bg-stone-100 rounded-xl md:ml-0 ml-5 md:w-[1024] w-[340px] md:h-[680] mb-6 md:mx-3 py-7 text-black md:text-xl text-lg ">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
@@ -30,7 +30,7 @@ const Trio = () => {
                     />
                 </div>
                 <div className=" md:flex ">
-                    <div className=" bg-stone-100 rounded-xl w-[310px] md:w-[500] md:ml-0 ml-5 h-[420px] md:h-[445px] mb-3 mx-3 py-7 text-black text-xl">
+                    <div className=" bg-stone-100 rounded-xl  w-[340px] md:w-[500] md:ml-0 ml-5 h-[420px] md:h-[445px] mb-3 mx-3 py-7 text-black text-xl">
                         <Image
                             src="/notion-icon.svg"
                             alt="notion logo"
@@ -53,7 +53,7 @@ const Trio = () => {
                             className="md:mt-[46px] mt-[75px] ml-[51px] md:w-[450px] md:h-[252px]"
                         />
                     </div>
-                    <div className=" bg-stone-100 rounded-xl w-[310px] md:w-[500] md:ml-0 ml-5 h-[372px] md:h-[445px] mb-1 mx-3 py-7 text-black text-xl">
+                    <div className=" bg-stone-100 rounded-xl  w-[340px] md:w-[500] md:ml-0 ml-5 h-[372px] md:h-[445px] mb-1 mx-3 py-7 text-black text-xl">
                         <Image
                             src="/notion-icon.svg"
                             alt="notion logo"

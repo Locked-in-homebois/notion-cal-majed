@@ -1,18 +1,18 @@
 import Image from "next/image";
 const Quatro = () => {
     return (
-        <div className="pb-[170px]">
+        <div className="md:pb-[170px] pb-[100px]">
             <div className=" md:flex items-center">
-                <div className=" bg-stone-100 ml-[20px] md:ml-0 rounded-xl md:w-[500] w-[310px] h-[434px] mb-6 mx-3 py-6 text-black text-xl items-center">
+                <div className=" bg-stone-100  md:ml-0 rounded-xl md:w-[500] w-[340px] h-[434px] mb-6 md:mx-3 py-6 text-black text-xl items-center">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
                         width={22}
                         height={24}
-                        className="pb-4 ml-9 mt-0.5"
+                        className="pb-4 ml-6 md:ml-9 mt-0.5"
                     />
-                    <h1 className="pb-1 ml-8 font-black">Built-in scheduling</h1>
-                    <p className=" ml-8 text-[17px] font-extralight max-w-[450px]">
+                    <h1 className="pb-1 md:ml-8 px-[25px] font-black">Built-in scheduling</h1>
+                    <p className=" md:ml-8 text-[17px] px-[25px] font-extralight max-w-[450px]">
                         Send your availability and scheduling link to let others
                         book time with you. No separate app.
                     </p>
@@ -21,19 +21,19 @@ const Quatro = () => {
                         width={430}
                         height={430}
                         alt="first quarter"
-                        className="mx-[35px] mt-[66px] shadow-xs w-[265px] md:w-[390] md:h-[223]"
+                        className="md:mx-[35px] mx-[15px] md:mt-[66px] mt-[33px] shadow-xs w-[311px] md:w-[390] md:h-[223]"
                     />
                 </div>
-                <div className=" bg-stone-100 ml-[20px] md:ml-0 rounded-xl md:w-[500] w-[310px] h-[434px] mb-6 mx-3 py-6 text-black text-xl items-center">
+                <div className=" bg-stone-100  md:ml-0 rounded-xl md:w-[500] w-[340px] h-[434px] mb-6 md:mx-3 py-6 text-black text-xl items-center">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
                         width={22}
                         height={24}
-                        className="pb-4 ml-9 mt-0.5"
+                        className="pb-4 ml-6 md:ml-9 mt-0.5"
                     />
-                    <h1 className="pb-1 ml-8 font-black">Work across time zones</h1>
-                    <p className=" ml-8 text-[17px] font-extralight max-w-[450px]">
+                    <h1 className="pb-1 md:ml-8 px-[25px] font-black">Work across time zones</h1>
+                    <p className=" md:ml-8 text-[17px] px-[25px] font-extralight max-w-[450px]">
                         Thoughtfully collaborate with global teams as you
                         visualize your day across time zones.
                     </p>
@@ -42,21 +42,21 @@ const Quatro = () => {
                         width={500}
                         height={500}
                         alt="second quarter"
-                        className="mt-[53px] md:w-[390] md:h-[323]"
+                        className="mt-[53px] md:pl-[100px] md:w-[390] md:h-[233]"
                     />
                 </div>
             </div>
             <div className=" md:flex ">
-                <div className=" bg-stone-100 ml-[20px] md:ml-0 rounded-xl md:w-[500] w-[310px] h-[434px] mb-6 mx-3 py-6 text-black text-xl items-center">
+                <div className=" bg-stone-100  md:ml-0 rounded-xl md:w-[500] w-[340px] h-[434px] mb-6 md:mx-3 py-6 text-black text-xl items-center">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
                         width={22}
                         height={24}
-                        className="pb-4 ml-9 mt-0.5"
+                        className="pb-4 ml-6 md:ml-9 mt-0.5"
                     />
-                    <h1 className="pb-1 ml-8 font-black">Modern design</h1>
-                    <p className=" ml-8 text-[17px] font-extralight max-w-[450px]">
+                    <h1 className="pb-1 md:ml-8 px-[25px] font-black">Modern design</h1>
+                    <p className=" md:ml-8 text-[17px] px-[25px] font-extralight max-w-[450px]">
                         Use command menu and shortcuts for efficient workflows.
                     </p>
                     <Image
@@ -64,19 +64,19 @@ const Quatro = () => {
                         width={500}
                         height={500}
                         alt="third quarter"
-                        className="mt-[95px]"
+                        className="md:mt-[95px] md:w-[500px] w-[500px] h-[250px] md:h-[500px] mt-10"
                     />
                 </div>
-                <div className=" bg-stone-100 ml-[20px] md:ml-0 rounded-xl md:w-[500] w-[310px] h-[434px] mb-6 mx-3 py-6 text-black text-xl items-center">
+                <div className=" bg-stone-100  md:ml-0 rounded-xl md:w-[500] w-[340px] h-[434px] mb-6 md:mx-3 py-6 text-black text-xl items-center">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
                         width={22}
                         height={24}
-                        className="pb-4 ml-9 mt-0.5"
+                        className="pb-4 ml-6 md:ml-9 mt-0.5"
                     />
-                    <h1 className="pb-1 ml-8 font-black">Available in 12 languages</h1>
-                    <p className=" ml-8 text-[17px] font-extralight max-w-[450px]">
+                    <h1 className="pb-1 md:ml-8 px-[25px] font-black">Available in 12 languages</h1>
+                    <p className="md:ml-8 text-[17px] px-[25px] font-extralight max-w-[450px]">
                         Supports English, Japanese, Korean, French, German,
                         Spanish, Portuguese, Danish, Dutch, Finnish, Norwegian,
                         and Swedish… with more on the way!

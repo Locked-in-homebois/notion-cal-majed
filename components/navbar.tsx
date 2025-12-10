@@ -3,7 +3,7 @@ import Link from "next/link";
 const Navbar = () => {
     return (
         <nav className="sticky top-0 flex w-full pb-12 max-h-[66px] bg-white text-center shadow-xs">
-            <div className="md:mx-[25px] md:my-[18px] md:pr-24">
+            <div className="md:mx-[25px] mx-[16px] my-[18px] md:pr-24">
                 <Link
                     href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
                     className=" "
@@ -11,8 +11,9 @@ const Navbar = () => {
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
-                        width={42}
-                        height={43}
+                        width={41}
+                        height={32}
+                        className="md:w-[42px] md:h-[33px]"
                     />
                 </Link>
             </div>
@@ -68,7 +69,7 @@ const Navbar = () => {
                 </Link>
                 <Link
                     href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
-                    className=" bg-black rounded-lg flex flex-col text-[16px]  text-white py-2 px-[17px]  focus:bg-gray-700 transition font-medium"
+                    className="md:text-[16px] bg-black rounded-lg flex flex-col text-[14px]  text-gray-100 py-2 md:px-[17px] px-[15px] focus:bg-gray-700 transition md:font-medium font-[550]"
                 >
                     Get Notion calendar free
                 </Link>

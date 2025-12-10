@@ -3,21 +3,21 @@ import Link from "next/link";
 // import React from "react";
 const Hero = () => {
     return (
-        <main className="flex w-full flex-col items-center pt-33 pb-12 bg-white">
+        <main className="flex w-full flex-col items-center md:pt-33 pt-16 pb-12 bg-white">
             <Image
                 src="/cal.svg"
                 alt="notion cal logo"
                 width={100}
                 height={100}
             />
-            <div className="text-black font-bold pt-2">
-                <h4>Notion calendar</h4>
+            <div className="text-black font-bold pt-4">
+                <h4>Notion Calendar</h4>
             </div>
-            <div className="flex flex-col items-center gap-4 text-center py-2">
-                <h1 className="max-w-xs text-7xl text-center font-bold tracking-tighter text-black">
+            <div className="flex flex-col items-center md:gap-4 text-center md:py-2 py-1">
+                <h1 className="max-w-xs md:text-7xl text-[44px] text-center font-bold tracking-tighter text-black">
                     It's time.
                 </h1>
-                <p className="max-w-md text-[20px] text-center text-black font-[550]">
+                <p className="md:max-w-md md:text-[20px] text-[18px] text-center text-black md:font-[550] font-medium max-w-[230px] md:pb-0 pb-4">
                     All of your commitments, now in one place. Meet the
                     beautifully designed, fully integrated calendar for your
                     work and life.
