@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 const Navbar = () => {
     return (
-        <nav className="sticky top-0 flex w-full pb-12 max-h-[66px] bg-white text-center shadow-xs ">
-            <div className="md:mx-[25px] mx-4 my-[18px] md:pr-24">
+        <nav className="sticky top-0 grid grid-cols-3 w-full pb-12 max-h-[66px] bg-white text-center shadow-xs ">
+            <div className="justify-self-start my-[17px] ml-4">
                 <Link
                     href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
                     className=" "
@@ -17,7 +17,7 @@ const Navbar = () => {
                     />
                 </Link>
             </div>
-            <div className="flex-row md:flex w-full h-full max-h-[66px] md:gap-10 justify-center text-black font-[505] text-center items-center text-sm py-6 pl-40 hidden  ">
+            <div className="md:flex md:justify-self-center h-full max-h-[66px] gap-8 tracking-wide text-black items-center whitespace-nowrap font-[475] text-sm py-6  hidden  ">
                 <Link
                     href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
                 >
@@ -60,10 +60,10 @@ const Navbar = () => {
                 </Link>
                 
             </div>
-            <div className="flex mt-3.5 items-end w-[450px] h-full md:px-5 gap-5 justify-end">
+            <div className="flex justify-self-end items-center w-[450px] h-full md:pr-5 gap-5 justify-end">
                 <Link
                     href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
-                    className=" text-[15px] text-black md:h-max-[66px] max-w-2xl md:mb-2 hidden md:block "
+                    className=" text-[15px] text-black md:h-max-[66px] max-w-2xl items-center hidden md:block "
                 >
                     Log in
                 </Link>
