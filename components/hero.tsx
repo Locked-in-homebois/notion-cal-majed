@@ -3,7 +3,7 @@ import Link from "next/link";
 // import React from "react";
 const Hero = () => {
     return (
-        <main className="flex w-full flex-col items-center md:pt-33 pt-16 pb-12 bg-white">
+        <main className="flex w-full flex-col items-center md:pt-16 pt-16 pb-12 bg-white">
             <Image
                 src="/cal.svg"
                 alt="notion cal logo"
