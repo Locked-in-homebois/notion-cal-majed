@@ -19,19 +19,19 @@ const AppPart = () => {
                     Get Notion Calendar free →
                 </Link>
             </div>
-            <div className="md:grid md:grid-cols-2 gap-4">
-                <div className=" bg-stone-100 rounded-xl  w-[340px] md:w-[500] md:ml-0 ml-5 h-[372px] md:h-[445px] mb-1 mx-3 pt-7 text-black text-xl">
-                    <h1 className="pb-1 ml-3 font-black">Desktop App</h1>
+            <div className="md:grid md:grid-cols-2 gap-4 mb-[100px]">
+                <div className=" bg-stone-100 rounded-xl  w-[340px] md:w-[500] md:ml-0 ml-5 h-[372px] md:h-[445px] md:mb-1 mb-5 mx-3 pt-7 text-black text-xl">
+                    <h1 className="pb-1 md:ml-9 ml-3 font-black">Desktop App</h1>
                     <Image
                         src="/Q1Desk.png"
                         width={1200}
                         height={900}
                         alt="first quarter"
-                        className="md:mt-[41px] mt-[30px] md:w-[430px] w-[420px] md:h-[280px] md:mb-[30px] justify-self-center"
+                        className="md:mt-[41px] mt-[30px] md:w-[430px] w-[420px] md:h-[280px] md:mb-[30px] mb-5 justify-self-center"
                     />
                     <Link
                         href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
-                        className=" bg-white rounded-lg text-[18px] py-[5px] mr-5 ml-9 px-[17px] text-black text-center focus:bg-gray-700 transition font-medium"
+                        className=" bg-white rounded-lg text-[18px] py-[5px] md:mr-5 md:ml-9 ml-3 mr-2 px-[17px] text-black text-center focus:bg-gray-700 transition font-medium"
                     > MacOS</Link>
                     <Link
                         href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
@@ -39,17 +39,17 @@ const AppPart = () => {
                     > Windows</Link>
                 </div>
                 <div className=" bg-stone-100 rounded-xl  w-[340px] md:w-[500] md:ml-0 ml-5 h-[422px] md:h-[445px] mb-1 mx-3 pt-7 text-black text-xl">
-                    <h1 className="pb-1 ml-3 font-black">Mobile app</h1>
+                    <h1 className="pb-1 md:ml-9 ml-3 font-black">Mobile app</h1>
                     <Image
                         src="/Q2Phone.png"
                         width={600}
                         height={480}
                         alt="second quarter"
-                        className="mt-[37px] md:w-[285px] w-[275] h-[260] md:h-[278px] md:mb-[30px] justify-self-center"
+                        className="mt-[37px] md:w-[285px] w-[275] h-[260] md:h-[278px] md:mb-[30px] mb-5 justify-self-center"
                     />
                     <Link
                         href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
-                        className=" bg-white rounded-lg text-[18px] py-[5px] mr-5 ml-9 px-[17px] text-black text-center focus:bg-gray-700 transition font-medium"
+                        className=" bg-white rounded-lg text-[18px] py-[5px] md:mr-5 md:ml-9 ml-3 mr-2 px-[17px] text-black text-center focus:bg-gray-700 transition font-medium"
                     > Apple App Store</Link>
                     <Link
                         href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
