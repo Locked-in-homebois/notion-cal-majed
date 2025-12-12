@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <footer className="bottom-0 border-t-2 border-gray-200 w-full md:h-[423px]">
-            <div className="grid grid-cols-5 justify-self-center w-[1250px] h-full text-black pt-20 text-sm">
-                <div className="flex flex-col justify-between pb-10">
+        <footer className="bottom-0 border-t-2 border-gray-200 md:bg-white bg-neutral-50 justify-center md:w-full w-auto md:h-[423px] ">
+            <div className="md:grid grid grid-cols-1 gap-2 md:grid-cols-5 justify-self-center md:w-[1250px] w-auto h-full text-black pt-20 md:text-sm text-[21px] [&_a]:transition [&_a:hover]:underline [&_a:hover]:text-gray-300 [&_a]:duration-600 text-center md:pb-0 pb-[100px]">
+                <div className="md:flex md:flex-col justify-between pb-10">
                     <div className="space-y-6">
                         <Link href="/" className="flex items-center gap-3">
                             <Image
@@ -16,7 +16,7 @@ const Footer = () => {
                             />
                         </Link>
 
-                        <div className="flex items-center gap-4">
+                        <div className="flex items-center gap-4 ">
                             <Link href="#" aria-label="Instagram">
                                 IG
                             </Link>
@@ -62,9 +62,9 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="space-y-3">
+                <div className="space-y-3 ">
                     <p className="font-semibold">Company</p>
-                    <div className="flex flex-col gap-2 text-gray-700">
+                    <div className="flex flex-col gap-2 text-gray-700  focus:text-gray-700 focus:underline">
                         <Link href="#">About us</Link>
                         <Link href="#">Careers</Link>
                         <Link href="#">Security</Link>
@@ -74,9 +74,9 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="space-y-3">
+                <div className="space-y-3 md:pt-0 pt-6">
                     <p className="font-semibold">Download</p>
-                    <div className="flex flex-col gap-2 text-gray-700">
+                    <div className="flex flex-col gap-2 text-gray-700  focus:text-gray-700 focus:underline">
                         <Link href="#">iOS &amp; Android</Link>
                         <Link href="#">Mac &amp; Windows</Link>
                         <Link href="#">Calendar</Link>
@@ -84,9 +84,9 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="space-y-3">
+                <div className="space-y-3 md:pt-0 pt-6">
                     <p className="font-semibold">Resources</p>
-                    <div className="flex flex-col gap-2 text-gray-700">
+                    <div className="flex flex-col gap-2 text-gray-700  focus:text-gray-700 focus:underline">
                         <Link href="#">Help center</Link>
                         <Link href="#">Pricing</Link>
                         <Link href="#">Blog</Link>
@@ -97,9 +97,9 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="space-y-3">
+                <div className="space-y-3 md:pt-0 pt-6">
                     <p className="font-semibold">Notion for</p>
-                    <div className="flex flex-col gap-2 text-gray-700">
+                    <div className="flex flex-col gap-2 text-gray-700  focus:text-gray-700 focus:underline">
                         <Link href="#">Enterprise</Link>
                         <Link href="#">Small business</Link>
                         <Link href="#">Personal</Link>
