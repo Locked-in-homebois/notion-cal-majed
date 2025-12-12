@@ -67,8 +67,8 @@ const Navbar = () => {
                 <div
                     className={
                         menuOpen
-                            ? " fixed top-0 right-0 w-full h-screen bg-stone-100 ease-in duration-500 "
-                            : " fixed top-0 -right-full w-full h-screen bg-stone-100 ease-out duration-500"
+                            ? " fixed top-0 right-0 w-full h-screen bg-stone-100 ease-in duration-200 flex flex-col "
+                            : " fixed top-0 -right-full w-full h-screen bg-stone-100 ease-out duration-200"
                     }
                 >
                     <div className="grid grid-cols-3 mt-2">
@@ -77,18 +77,77 @@ const Navbar = () => {
                             alt="notion logo"
                             width={41}
                             height={32}
-                            className="md:w-[42px] pt-1 pl-2 md:h-[33px] justify-self-start"
+                            className="w-[38px] pt-2 pl-1 h-9 ml-3 justify-self-start"
                         />
                         <Link
                             href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
-                            className=" bg-blue-600 rounded-lg text-[13px] w-[175px] items-end mt-1.5 justify-self-center max-h-[35px] text-gray-100 py-2 px-[15px] font-[550]"
+                            className=" bg-blue-600 rounded-lg text-[13px] tracking-wider w-[195px] items-end mt-1.5 justify-self-start max-h-[35px] text-gray-100 py-2 px-[15px] font-[550]"
                         >
-                            Get Notion calendar free
+                            Get Notion Calendar free
                         </Link>
                         <X
                             onClick={handleNav}
                             className="text-black mt-3 mr-4 top-0 justify-self-end"
                         />
+                    </div>
+                    <div className="flex flex-col items-start gap-2 pt-9 text-left text-[22px] pl-4">
+                        <Link
+                            href={"/"}
+                            className=" font-black text-black w-full"
+                        >
+                            Notion
+                        </Link>
+                        <Link
+                            href={"/"}
+                            className=" font-black text-black w-full"
+                        >
+                            Mail
+                        </Link>
+                        <Link
+                            href={"/"}
+                            className=" font-black text-black w-full"
+                        >
+                            Calendar
+                        </Link>
+                        <Link
+                            href={"/"}
+                            className=" font-black text-black w-full"
+                        >
+                            AI
+                        </Link>
+                        <Link
+                            href={"/"}
+                            className="font-black text-black w-full"
+                        >
+                            Enterprise
+                        </Link>
+                        <Link
+                            href={"/"}
+                            className=" font-black text-black w-full"
+                        >
+                            Pricing
+                        </Link>
+                        <Link
+                            href={"/"}
+                            className=" font-black text-black w-full"
+                        >
+                            More
+                        </Link>
+                    </div>
+                    {/* footer of menu */}
+                    <div className="mt-auto shadow-2xl border-t  border-gray-200 h-[18%] flex flex-col items-center gap-2">
+                        <Link
+                            href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
+                            className=" bg-blue-600 rounded-lg text-[16px] w-[90%] items-end mt-4.5 justify-self-center max-h-[35px] text-gray-100 py-2 px-[15px] font-[550]"
+                        >
+                            Download App{" "}
+                        </Link>
+                        <Link
+                            href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
+                            className=" bg-sky-100 rounded-lg text-[16px] w-[90%] items-end mt-1.5 justify-self-center max-h-[35px] text-blue-800 py-2 px-[15px] font-[550]"
+                        >
+                            Log in{" "}
+                        </Link>
                     </div>
                 </div>
 
