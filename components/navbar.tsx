@@ -60,7 +60,7 @@ const Navbar = () => {
             {/* ease in with duration */}
             {/* -100% so that its all the way on the right side type shit */}
             {/* onclick handle menu ,,,, handle menu is alway set menu open not menu open cuz menu open initally is closed*/}
-            <div className="flex justify-self-end items-center h-full pb-3 gap-5 pr-2 text-center col-span-2">
+            <div className="flex justify-self-end items-center h-full pb-3 gap-5 pr-2 text-center md:col-span-1 col-span-2">
                 <div onClick={handleNav} className=" md:hidden ">
                     <Menu className="text-black" />
                 </div>
@@ -159,7 +159,7 @@ const Navbar = () => {
                 </Link>
                 <Link
                     href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
-                    className="md:text-[16px] bg-black rounded-lg flex flex-col text-[12px]  text-gray-100 py-2 md:px-[17px] px-[15px] focus:bg-gray-700 transition md:font-medium font-[550]"
+                    className="md:text-[16px] bg-black rounded-lg md:block flex flex-col text-[12px]  text-gray-100 py-2 md:px-[17px] px-[15px] focus:bg-gray-700 transition md:font-medium font-[550]"
                 >
                     Get Notion calendar free
                 </Link>

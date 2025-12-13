@@ -7,6 +7,7 @@ import Trio from "@/components/trioGang";
 import Bigandtrio from "@/components/bigandtrio";
 import SixGang from "@/components/hexanexanigga";
 import AppPart from "@/components/GetAppPart";
+import QA from "@/components/Q&A";
 export default function Home() {
     return (
         <main className="flex min-h-screen w-full flex-col items-center bg-white">
@@ -16,8 +17,9 @@ export default function Home() {
             <Quatro />
             <Trio />
             <Bigandtrio />
-            <SixGang/>
-            <AppPart/>
+            <SixGang />
+            <AppPart />
+            <QA />
         </main>
     );
 }
