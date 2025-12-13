@@ -6,7 +6,7 @@ const Bigandtrio = () => {
                 Work and life, playing nice.
             </div>
             <div className="pb-[170px] md:ml-[11px] items-center md:gap-0 gap-[100px]">
-                <div className=" bg-stone-100 rounded-2xl md:w-[1024] w-[340px] md:h-[712] mb-6 pt-9 text-black text-xl ">
+                {/* <div className=" bg-stone-100 rounded-2xl md:w-[1024] w-[340px] md:h-[712] mb-6 pt-9 text-black text-xl ">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
@@ -28,8 +28,34 @@ const Bigandtrio = () => {
                         alt="first quarter"
                         className="md:mt-[38px] mt-7 md:w-[960px] w-[330px] h-[200px] md:h-[523px] ml-2.5 md:ml-[33px] shadow-xs "
                     />
+                </div> */}
+                <div className="bg-stone-100 rounded-2xl md:w-full w-[82vw] h-auto">
+                    <div className="p-10  ">
+                        <Image
+                            src="/notion-icon.svg"
+                            alt="notion logo"
+                            width={24}
+                            height={24}
+                        />
+                        <h1 className="text-[30px] font-black mt-2">
+                            See all your commitments in the same place
+                        </h1>
+                        <p className="text-[21px] font-extralight ">
+                            No more accidental conflicts between work and personal events.
+                        </p>
+                    </div>
+                    <div className="flex items-center justify-center">
+                        <Image
+                            src="/BAndTrio.png"
+                            width={1020}
+                            height={840}
+                            alt="first quarter"
+                            className="w-[80%] h-auto max-w-[950px] "
+                        />
+                    </div>
                 </div>
-                <div className=" md:flex ">
+
+                <div className="md:flex flex-col md:flex-row  items-center justify-center mt-2" >
                     <div className=" bg-stone-100 rounded-2xl md:w-[328] w-[340] h-[205px] mb-4  py-7 text-black text-xl">
                         <Image
                             src="/notion-icon.svg"
