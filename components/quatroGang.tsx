@@ -1,94 +1,98 @@
 import Image from "next/image";
 const Quatro = () => {
     return (
-        <div className="pb-[170px]">
-            <div className=" md:flex items-center md:mb-4 gap-6">
-                <div className=" bg-stone-100  md:ml-0 rounded-xl md:w-[500] w-[340px] h-[434px] mb-6 md:mx-3 py-6 text-black text-xl items-center">
+        <div className="pb-[170px] md:grid md:gap-5 md:space-y-0 space-y-5 md:grid-cols-2 text-left text-black text-xl">
+            <div className=" bg-stone-100 rounded-xl place-items-center  px-2 pt-2 md:px-7 md:pt-7 flex flex-col">
+                <div className=" space-y-1 mb-2">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
                         width={22}
                         height={24}
-                        className="pb-4 ml- md:ml-9 mt-0.5"
+                        className="md:mt-0 mt-2"
                     />
-                    <h1 className="pb-1 md:ml-8 px-[25px] font-black">Built-in scheduling</h1>
-                    <p className=" md:ml-8 text-[17px] px-[25px] font-extralight max-w-[450px]">
+                    <h1 className="font-black">Built-in scheduling</h1>
+                    <p className=" text-[17px]  font-extralight md:max-w-[450px] max-w-[280px]">
                         Send your availability and scheduling link to let others
                         book time with you. No separate app.
                     </p>
-                    <Image
-                        src="/Q1.png"
-                        width={630}
-                        height={630}
-                        alt="first quarter"
-                        className="md:mx-[55px] mx-[15px] md:mt-[26px] mt-[33px] shadow-xs w-[311px] md:w-[400] md:h-[263]"
-                    />
                 </div>
-                <div className=" bg-stone-100  md:ml-0 rounded-xl md:w-[500] w-[340px] h-[434px] mb-6 md:mx-3 py-6 text-black text-xl items-center">
+                <Image
+                    src="/Q1.png"
+                    width={500}
+                    height={480}
+                    alt="first quarter"
+                    className="w-[320px] h-60 md:w-[420px] md:h-[340px]  justify-end mt-auto"
+                />
+            </div>
+            <div className=" bg-stone-100 rounded-xl place-items-center  px-2 pt-2 md:px-7 md:pt-7 flex flex-col">
+                <div className="space-y-1">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
                         width={22}
                         height={24}
-                        className="pb-4 ml-6 md:ml-9 mt-0.5"
+                        className="md:mt-0 mt-2"
                     />
-                    <h1 className="pb-1 md:ml-8 px-[25px] font-black">Work across time zones</h1>
-                    <p className=" md:ml-8 text-[17px] px-[25px] font-extralight max-w-[450px]">
+                    <h1 className=" font-black">Work across time zones</h1>
+                    <p className=" text-[17px]  font-extralight md:max-w-[450px] max-w-[280px]">
                         Thoughtfully collaborate with global teams as you
                         visualize your day across time zones.
                     </p>
-                    <Image
-                        src="/Q2.png"
-                        width={800}
-                        height={800}
-                        alt="second quarter"
-                        className="mt-[53px] md:pl-[100px] md:w-[390] md:h-[233] w-[380] h-[213]"
-                    />
                 </div>
+                <Image
+                    src="/Q2.png"
+                    width={500}
+                    height={480}
+                    alt="second quarter"
+                    className="w-[320px] h-60 md:w-[420px] md:h-[340px] justify-end mt-auto"
+                />
             </div>
-            <div className=" md:flex gap-6">
-                <div className=" bg-stone-100  md:ml-0 rounded-xl md:w-[500] w-[340px] h-[434px] mb-6 md:mx-3 py-6 text-black text-xl items-center">
+            <div className=" bg-stone-100 rounded-xl place-items-center  px-2 pt-2 md:px-7 md:pt-7 flex flex-col">
+                <div className="space-y-1">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
                         width={22}
                         height={24}
-                        className="pb-4 ml-6 md:ml-9 mt-0.5"
+                        className="md:mt-0 mt-2"
                     />
-                    <h1 className="pb-1 md:ml-8 px-[25px] font-black">Modern design</h1>
-                    <p className=" md:ml-8 text-[17px] px-[25px] font-extralight max-w-[450px]">
+                    <h1 className="  font-black">Modern design</h1>
+                    <p className=" text-[17px]  font-extralight md:max-w-[450px] max-w-[280px]">
                         Use command menu and shortcuts for efficient workflows.
                     </p>
-                    <Image
-                        src="/Q3.png"
-                        width={500}
-                        height={500}
-                        alt="third quarter"
-                        className="md:mt-[95px] md:w-[500px] w-[500px] h-[250px] md:h-[345px] mt-10"
-                    />
                 </div>
-                <div className=" bg-stone-100  md:ml-0 rounded-xl md:w-[500] w-[340px] h-[434px] mb-6 md:mx-3 py-6 text-black text-xl items-center">
+                <Image
+                    src="/Q3.png"
+                    width={500}
+                    height={480}
+                    alt="third quarter"
+                    className="w-[320px] h-60 md:w-[420px] md:h-[340px] justify-end mt-auto"
+                />
+            </div>
+            <div className=" bg-stone-100 rounded-xl place-items-center  px-2 pt-2 md:px-7 md:pt-7 flex flex-col">
+                <div className="space-y-1">
                     <Image
                         src="/notion-icon.svg"
                         alt="notion logo"
                         width={22}
                         height={24}
-                        className="pb-4 ml-6 md:ml-9 mt-0.5"
+                        className="md:mt-0 mt-2"
                     />
-                    <h1 className="pb-1 md:ml-8 px-[25px] font-black">Available in 12 languages</h1>
-                    <p className="md:ml-8 text-[17px] px-[25px] font-extralight max-w-[450px]">
+                    <h1 className=" font-black">Available in 12 languages</h1>
+                    <p className=" text-[17px]  font-extralight md:max-w-[450px] max-w-[280px]">
                         Supports English, Japanese, Korean, French, German,
                         Spanish, Portuguese, Danish, Dutch, Finnish, Norwegian,
                         and Swedish… with more on the way!
                     </p>
-                    <Image
-                        src="/Q4.png"
-                        width={500}
-                        height={480}
-                        alt="fourth quarter"
-                        className="mt-4"
-                    />
                 </div>
+                <Image
+                    src="/Q4.png"
+                    width={500}
+                    height={480}
+                    alt="fourth quarter"
+                    className="w-[320px] h-60 md:w-[420px] md:h-[340px] justify-end mt-auto"
+                />
             </div>
         </div>
     );

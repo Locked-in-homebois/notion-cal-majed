@@ -11,8 +11,8 @@ const Navbar = () => {
         setMenuOpen(!menuOpen);
     };
     return (
-        <nav className="sticky top-0 grid grid-cols-3 w-full pb-12 max-h-[66px] bg-white text-center shadow-xs ">
-            <div className="flex justify-self-start my-[17px] ml-4">
+        <nav className="sticky top-0 grid grid-cols-3 w-full pb-12 max-h-[66px] bg-white text-center shadow-xs md:px-[17px]">
+            <div className="flex justify-self-start items-center ml-2 ">
                 <Link
                     href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
                     className=" "
@@ -26,7 +26,7 @@ const Navbar = () => {
                     />
                 </Link>
             </div>
-            <div className="md:flex justify-self-center h-full max-h-[66px] gap-8 tracking-wide text-gray-700 items-center whitespace-nowrap font-[475] text-sm py-6  hidden [&_a]:transition [&_a:hover]:text-black ">
+            <div className="md:flex justify-self-center h-full xl:gap-8 md:gap-2 lg:gap-3 xl:pr-0 md:pr-10 tracking-wide text-gray-700 items-center whitespace-nowrap font-[475] text-sm  hidden [&_a]:transition [&_a:hover]:text-black ">
                 <Link href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg">
                     Notion
                 </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
             {/* ease in with duration */}
             {/* -100% so that its all the way on the right side type shit */}
             {/* onclick handle menu ,,,, handle menu is alway set menu open not menu open cuz menu open initally is closed*/}
-            <div className="flex justify-self-end items-center h-full pb-3 gap-5 pr-2 text-center md:col-span-1 col-span-2">
+            <div className="flex justify-self-end items-center pb-3 gap-5 pr-2 text-center md:col-span-1 col-span-2">
                 <div onClick={handleNav} className=" md:hidden ">
                     <Menu className="text-black" />
                 </div>
@@ -77,92 +77,59 @@ const Navbar = () => {
                             alt="notion logo"
                             width={41}
                             height={32}
-                            className="w-[38px] pt-2 pl-1 h-9 ml-3 justify-self-start"
+                            className="w-[38px] h-[33px] mt-auto items-center ml-3 justify-self-start"
                         />
                         <Link
                             href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
-                            className=" bg-blue-600 rounded-lg text-[13px] tracking-wider w-[195px] items-end mt-1.5 justify-self-start max-h-[35px] text-gray-100 py-2 px-[15px] font-[550]"
+                            className=" bg-blue-600 rounded-lg text-[13px] tracking-wider w-[195px] items-center mt-auto justify-self-start  text-gray-100 py-2 px-[15px] font-[550]"
                         >
                             Get Notion Calendar free
                         </Link>
                         <X
                             onClick={handleNav}
-                            className="text-black mt-3 mr-4 top-0 justify-self-end"
+                            className="text-black mt-auto mr-4 justify-self-end"
                         />
                     </div>
-                    <div className="flex flex-col items-start gap-2 pt-9 text-left text-[22px] pl-4">
-                        <Link
-                            href={"/"}
-                            className=" font-black text-black w-full"
-                        >
-                            Notion
-                        </Link>
-                        <Link
-                            href={"/"}
-                            className=" font-black text-black w-full"
-                        >
-                            Mail
-                        </Link>
-                        <Link
-                            href={"/"}
-                            className=" font-black text-black w-full"
-                        >
-                            Calendar
-                        </Link>
-                        <Link
-                            href={"/"}
-                            className=" font-black text-black w-full"
-                        >
-                            AI
-                        </Link>
-                        <Link
-                            href={"/"}
-                            className="font-black text-black w-full"
-                        >
-                            Enterprise
-                        </Link>
-                        <Link
-                            href={"/"}
-                            className=" font-black text-black w-full"
-                        >
-                            Pricing
-                        </Link>
-                        <Link
-                            href={"/"}
-                            className=" font-black text-black w-full"
-                        >
-                            More
-                        </Link>
+                    <div className="flex flex-col font-black text-black items-start gap-2 pt-9 text-left text-[22px] pl-4">
+                        <Link href={"/"}>Notion</Link>
+                        <Link href={"/"}>Mail</Link>
+                        <Link href={"/"}>Calendar</Link>
+                        <Link href={"/"}>AI</Link>
+                        <Link href={"/"}>Enterprise</Link>
+                        <Link href={"/"}>Pricing</Link>
+                        <Link href={"/"}>More</Link>
                     </div>
                     {/* footer of menu */}
-                    <div className="mt-auto shadow-2xl border-t  border-gray-200 h-[18%] flex flex-col items-center gap-2">
+                    <div className="mt-auto shadow-2xl border-t text-[16px] border-gray-200 h-[18%] flex flex-col font-[550] items-center gap-1 pb-3">
                         <Link
                             href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
-                            className=" bg-blue-600 rounded-lg text-[16px] w-[90%] items-end mt-4.5 justify-self-center max-h-[35px] text-gray-100 py-2 px-[15px] font-[550]"
+                            className=" bg-blue-600 rounded-lg w-[90%]  mt-auto text-gray-100 py-2 px-[15px] "
                         >
                             Download App{" "}
                         </Link>
                         <Link
                             href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
-                            className=" bg-sky-100 rounded-lg text-[16px] w-[90%] items-end mt-1.5 justify-self-center max-h-[35px] text-blue-800 py-2 px-[15px] font-[550]"
+                            className=" bg-sky-100 rounded-lg w-[90%] mt-auto text-blue-800 py-2 px-[15px] "
                         >
                             Log in{" "}
                         </Link>
                     </div>
                 </div>
 
-                <Link
-                    href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
-                    className=" text-[15px] text-black md:h-max-[66px] max-w-2xl items-center hidden md:block "
-                >
-                    Log in
-                </Link>
-                <Link
-                    href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
-                    className="md:text-[16px] bg-black rounded-lg md:block flex flex-col text-[12px]  text-gray-100 py-2 md:px-[17px] px-[15px] focus:bg-gray-700 transition md:font-medium font-[550]"
-                >
-                    Get Notion calendar free
-                </Link>
+                <div className="flex items-center gap-2 mt-2">
+                    <Link
+                        href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
+                        className=" text-[15px] text-black hidden md:block "
+                    >
+                        Log in
+                    </Link>
+                    <Link
+                        href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg"
+                        className="md:text-[16px] bg-black rounded-lg  text-[12px]  text-gray-100 py-2 md:px-[17px] px-[15px] focus:bg-gray-700 transition md:font-medium font-[550]"
+                    >
+                        Get Notion calendar free
+                    </Link>
+                </div>
             </div>
         </nav>
     );
