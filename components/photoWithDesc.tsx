@@ -5,7 +5,7 @@ const PhotoDes = () => {
             className="text-black flex flex-col items-center md:mt-40
             mt-36 "
         >
-            <h1 className="font-[1000]  md:text-[41px]  text-[32px] pb-14">
+            <h1 className="font-[1000]  md:text-[41px] text-center text-[32px] pb-14">
                 Time management, simplified.
             </h1>
             <div className=" bg-stone-100 rounded-xl md:pt-6 pt-3 md:w-full w-[90%] md:pr-14 flex flex-col md:items-start items-center mb-6  ">

@@ -5,6 +5,16 @@ import Link from "next/link";
 import { useState } from "react";
 import { X, Menu } from "lucide-react";
 const menuopenatr = " fixed top-0 w-full h-screen bg-stone-100 duration-200 ";
+const navlist = [
+    { lable: "Notion", href: "/" },
+    { lable: "Mail", href: "/" },
+    { lable: "Calendar", href: "/" },
+    { lable: "Ai", href: "/" },
+    { lable: "Enterprise", href: "/" },
+    { lable: "Pricing", href: "/" },
+    { lable: "Explore", href: "/" },
+    { lable: "Request a demo", href: "/" },
+];
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const handleNav = () => {
@@ -27,39 +37,13 @@ const Navbar = () => {
                 </Link>
             </div>
             <div className="lg:flex justify-self-center h-full xl:gap-8 md:gap-2 lg:gap-3 xl:pr-0 md:pr-10 tracking-wide text-gray-700 items-center whitespace-nowrap font-[475] text-sm  hidden [&_a]:transition [&_a:hover]:text-black [&_a:hover]:bg-gray-300 [&_a]:rounded-md">
-                <Link href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg">
-                    Notion
-                </Link>
-                <Link href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg">
-                    Mail
-                </Link>
-                <Link href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg">
-                    Calendar
-                </Link>
-                <Link href="https://live.staticflickr.com/6068/6065510171_bb00e7222b_z.jpg">
-                    AI
-                </Link>
-                <Link href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz">
-                    Enterprise
-                </Link>
-                <Link href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz">
-                    Price
-                </Link>
-                <Link href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz">
-                    Explore
-                </Link>
-                <Link href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz">
-                    Request a demo
-                </Link>
+                {navlist.map((navlist) => (
+                    <Link href={navlist.href} key={navlist.lable}>
+                        {" "}
+                        {navlist.lable}
+                    </Link>
+                ))}
             </div>
-            {/* mobile nav */}
-
-            {/* mobile nav end */}
-            {/* curly braces allows us to if then inside class name */}
-            {/* menu open ? means if menu open then do blah ':' means else , so if its not open */}
-            {/* ease in with duration */}
-            {/* -100% so that its all the way on the right side type shit */}
-            {/* onclick handle menu ,,,, handle menu is alway set menu open not menu open cuz menu open initally is closed*/}
             <div className="flex justify-self-end items-center pb-3 gap-5 pr-2 text-center lg:col-span-1 col-span-2">
                 <div onClick={handleNav} className=" lg:hidden ">
                     <Menu className="text-black mt-2" />
@@ -93,13 +77,11 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="flex flex-col font-black text-black items-start gap-2 pt-9 text-left text-[22px] pl-4">
-                        <Link href={"/"}>Notion</Link>
-                        <Link href={"/"}>Mail</Link>
-                        <Link href={"/"}>Calendar</Link>
-                        <Link href={"/"}>AI</Link>
-                        <Link href={"/"}>Enterprise</Link>
-                        <Link href={"/"}>Pricing</Link>
-                        <Link href={"/"}>More</Link>
+                        {navlist.map((navlist) => (
+                            <Link href={navlist.href} key={navlist.lable}>
+                                {navlist.lable}
+                            </Link>
+                        ))}
                     </div>
                     {/* footer of menu */}
                     <div className="mt-auto shadow-2xl  text-[16px] h-[18%] flex flex-col font-[550] items-center gap-1 pb-3">

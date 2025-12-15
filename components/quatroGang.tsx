@@ -1,7 +1,7 @@
 import Image from "next/image";
 const quatroatr =
     "bg-stone-100 rounded-xl place-items-center  pt-2  md:pt-7 flex flex-col";
-const imageatr = "px-8 pt-1 justify-end mt-auto";
+const imageatr = "px-6 pt-1 justify-end mt-auto";
 const pAtr = " text-[17px]  font-extralight md:max-w-[450px] max-w-[280px]";
 const Quatro = () => {
     return (
