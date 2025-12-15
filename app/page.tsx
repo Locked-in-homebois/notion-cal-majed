@@ -10,7 +10,7 @@ import AppPart from "@/components/GetAppPart";
 import QA from "@/components/Q&A";
 export default function Home() {
     return (
-        <main className="flex min-h-screen w-full flex-col items-center bg-white">
+        <main className="flex flex-col items-center">
             <Hero />
             <Video />
             <PhotoDes />

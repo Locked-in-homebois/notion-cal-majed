@@ -3,7 +3,7 @@ import Link from "next/link";
 // import React from "react";
 const Hero = () => {
     return (
-        <main className="flex w-full flex-col items-center md:pt-16 pt-16 pb-12 font-bold text-center text-black ">
+        <main className=" pt-16 font-bold text-center text-black ">
             <div className="flex flex-col items-center md:gap-4 ">
                 <Image
                     src="/cal.svg"
@@ -22,7 +22,7 @@ const Hero = () => {
                 </p>
                 <Link
                     href="https://youtu.be/xvFZjo5PgG0?si=BnbvMVhfynKkNWpz"
-                    className=" bg-black rounded-lg flex md:flex-col text-[18px] flex-row text-white py-[5px] px-[17px] focus:bg-gray-700 transition font-medium"
+                    className=" bg-black rounded-lg flex md:flex-col text-[18px] text-white py-[5px] px-[17px] focus:bg-gray-700 transition font-medium"
                 >
                     Get Notion calendar free
                 </Link>

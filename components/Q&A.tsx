@@ -16,7 +16,7 @@ const QA = () => {
         setQA3IsOpen(!QA3isOpen);
     };
     return (
-        <div className="grid grid-rows-3 grid-cols-1 h-fit w-[50%] text-left items-center text-black">
+        <div className="grid grid-rows-3 w-[50%] max-w-[1000px] text-left items-center text-black">
             <div onClick={handleQA1}>
                 <h1 className="text-2xl ">
                     Which calendar provider(s) is Notion Calendar compatible
@@ -25,7 +25,7 @@ const QA = () => {
                 <div>
                     <PlusIcon className="justify-self-end" />
                 </div>
-                <div className={QA1isOpen ? "  h-auto " : "hidden"}>
+                <div className={QA1isOpen ? "  mt-auto " : "hidden"}>
                     Currently, Notion Calendar integrates and syncs with Google
                     Calendar accounts and Apple iCloud-synced Calendars. Adding
                     support for other calendar providers such as Outlook is on
@@ -42,7 +42,7 @@ const QA = () => {
                 <div>
                     <PlusIcon className=" justify-self-end" />
                 </div>
-                <div className={QA2isOpen ? "  h-auto " : "hidden"}>
+                <div className={QA2isOpen ? "  mt-auto " : "hidden"}>
                     Yes, Notion Calendar is available for iPhone and Android
                     devices. We know some users are looking for an optimized
                     version for tablet devices, such as iPad, and are working to
@@ -56,7 +56,7 @@ const QA = () => {
                 <div>
                     <PlusIcon className="justify-self-end" />
                 </div>
-                <div className={QA3isOpen ? "h-auto " : "hidden"}>
+                <div className={QA3isOpen ? "mt-auto " : "hidden"}>
                     Notion Calendar allows you to view your Notion database
                     items alongside your Google Calendar events. This offers a
                     streamlined way to see project timelines and task due dates

@@ -6,7 +6,7 @@ const Trio = () => {
                 Fully integrated with your Notion workspace.
             </div>
             <div className="md:pb-[170px] pb-[60px] md:grid text-black md:text-xl grid-cols-2 gap-5 ">
-                <div className="flex flex-col bg-stone-100 rounded-xl col-span-2  pt-10 space-y-3">
+                <div className="flex flex-col bg-stone-100 rounded-xl col-span-2  pt-10 ">
                     <div className=" space-y-2 mx-[5%]">
                         <Image
                             src="/notion-icon.svg"
@@ -32,7 +32,6 @@ const Trio = () => {
                         className="md:w-[980px] md:h-[465px] w-[340] h-[200] shadow-xs flex flex-col self-end mt-auto"
                     />
                 </div>
-
                 <div className="bg-stone-100 rounded-xl  pt-8 space-y-3 flex  place-items-center flex-col">
                     <div className=" space-y-2 ">
                         <Image
