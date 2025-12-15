@@ -1,12 +1,12 @@
 import Image from "next/image";
 const quatroatr =
-    "bg-stone-100 rounded-xl place-items-center  pt-2  md:pt-7 flex flex-col";
-const imageatr = "px-6 pt-1 justify-end mt-auto";
+    "bg-stone-100 rounded-xl place-items-center pt-2  md:pt-7 md:flex flex-col";
+const imageatr = "md:px-8 px-0 md:pt-1 justify-end mt-auto";
 const pAtr = " text-[17px]  font-extralight md:max-w-[450px] max-w-[280px]";
 const Quatro = () => {
     return (
-        <div className="pb-[170px] md:grid md:gap-8 md:space-y-0 space-y-5 md:grid-cols-2 text-left text-black text-xl">
-            <div className={quatroatr}>
+        <div className="pb-[170px] md:grid md:gap-8 md:space-y-0 md:px-0 px-5 space-y-5 md:grid-cols-2 text-left text-black text-xl">
+            <div className={`${quatroatr} px-4`}>
                 <div className=" space-y-1 mb-2">
                     <Image
                         src="/notion-icon.svg"
