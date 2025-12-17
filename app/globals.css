@@ -1,5 +1,5 @@
 @import "tailwindcss";
-@source inline("bg-{blue,red,green,orange,yellow,purple}-{200,600}");
+@source inline("bg-{blue,red,green,orange,yellow,purple,teal}-{100,500}");
 
 /* :root {
   --background: #ffffff;
